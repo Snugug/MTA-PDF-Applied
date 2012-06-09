@@ -1,0 +1,49 @@
+%subway-line {
+  color: white;
+  @include border-radius(50%);
+}
+
+%subway-small {
+  height: 1.25em;
+  width: 1.25em;
+  font-size: 1em;
+  padding-top: .15em;
+  font-weight: bold;
+  text-align: center;
+}
+
+%subway-medium {
+  height: 1.25em;
+  width: 1.25em;
+  font-size: 1.5em;
+  padding-top: .15em;
+  font-weight: bold;
+  text-align: center;
+}
+
+%subway-large {
+  height: 1.5em;
+  width: 1.5em;
+  font-size: 1.75em;
+  font-weight: bold;
+  padding-top: .23em;
+  text-align: center;
+}
+
+%tracks {
+//  background-repeat: repeat-y;
+//  
+//  .svg & {
+//    background: {
+//      image: inline-image('rail.svg');
+//      size: 100% 20px;
+//    }
+//  }
+//  
+//  .no-svg &,
+//  .no-js {
+//    background: {
+//      image: image('rail.png');
+//    }
+//  }
+}

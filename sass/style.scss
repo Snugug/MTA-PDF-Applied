@@ -2,3 +2,136 @@
 // Import Base
 ////////////////////////
 @import 'partials/global/base';
+
+@each $subway in $subway-lines {
+  .subway-#{nth($subway, 1)} {
+    @extend %subway-line;
+    
+    background-color: nth($subway, 2);
+    
+    &.passive {
+      background-color: rgba(nth($subway, 2), .5);
+    }
+    @if nth($subway, 1) == 'nqr' {
+      color: black;
+    }
+  }
+}
+
+#main-header {
+  width: 100%;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  background-color: black;
+  background: lighten(black, 15%);
+  position: fixed;
+  border-bottom: 1px solid black;
+  z-index: 100;
+}
+
+.wrapper {
+  @include container();
+}
+
+#line {
+  @include span-columns(6);
+  
+  div {
+    @extend %subway-large;
+    display: inline-block;
+  }
+}
+
+h1 {
+  @include span-columns(6 omega);
+  
+  font-size: 1.5em;
+//  padding-top: .23em;
+  font-weight: bold;
+  text-align: right;
+  
+  b {
+    @extend %subway-line;
+    display: inline-block;
+    text-align: center;
+    
+    height: 1.75em;
+    width: 1.75em;
+    font-size: 1em;
+    padding-top: .29em;
+    
+//    margin-top: -.23em;
+    
+    background-color: purple;
+  }
+}
+
+#container {
+  padding-top: 3.75em;
+  height: 100%;
+}
+
+#southbound,
+#northbound {
+  @include span-columns(2);
+  text-align: center;
+  height: 100%;
+  @extend %tracks;
+  
+  padding-top: 3.75em;
+  position: fixed;
+  
+  div {
+    @extend %subway-medium;
+    left: 50%;
+    margin-left: -.625em;
+    z-index: 10000;
+    position: absolute;
+  }
+}
+
+#northbound {
+  @include push(2);
+}
+
+#station-list {
+  @include span-columns(8 omega);
+  
+  h3 {
+    font-size: 1.25em;
+    font-weight: bold;
+    letter-spacing: .05em;
+  }
+}
+
+.station-info {
+  padding-top: .5em;
+  padding-bottom: .5em;
+  padding-left: .5em;
+  
+  footer {
+    padding-top: 3px;
+  }
+  
+  &:before {
+    content: '';
+    height: 3px;
+    @include span-columns(2);
+    width: columns(5) + 3 * gutter();
+    
+    position: relative;
+    background: rgba($subway-nqr, .75);
+    z-index: 0;
+    
+    margin : {
+      top: 1.25em;
+      right: 0;
+      left: -(columns(6.25)) - gutter();
+    }
+  }
+}
+
+.connections li {
+  @extend %subway-small;
+  display: inline-block;
+}
