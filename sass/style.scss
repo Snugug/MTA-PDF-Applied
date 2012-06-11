@@ -26,7 +26,7 @@
   background: lighten(black, 15%);
   position: fixed;
   border-bottom: 1px solid black;
-  z-index: 100;
+  z-index: 1000;
 }
 
 .wrapper {
@@ -62,13 +62,14 @@ h1 {
     
 //    margin-top: -.23em;
     
-    background-color: purple;
+//    background-color: purple;
   }
 }
 
 #container {
   padding-top: 3.75em;
   height: 100%;
+//  overflow: auto;
 }
 
 #southbound,
@@ -77,22 +78,20 @@ h1 {
   text-align: center;
   height: 100%;
   @extend %tracks;
-  
-  padding-top: 3.75em;
-  position: fixed;
+//  display: inline-block;
+//  position: fixed;
   
   div {
     @extend %subway-medium;
-    left: 50%;
-    margin-left: -.625em;
-    z-index: 10000;
     position: absolute;
+    z-index: 100;
+    margin-left: .35em;
   }
 }
-
-#northbound {
-  @include push(2);
-}
+//
+//#northbound {
+//  @include push(2);
+//}
 
 #station-list {
   @include span-columns(8 omega);
@@ -117,7 +116,7 @@ h1 {
     content: '';
     height: 3px;
     @include span-columns(2);
-    width: columns(5) + 3 * gutter();
+    width: columns(6);
     
     position: relative;
     background: rgba($subway-nqr, .75);
@@ -126,7 +125,7 @@ h1 {
     margin : {
       top: 1.25em;
       right: 0;
-      left: -(columns(6.25)) - gutter();
+      left: -(columns(7)) - .3 * gutter();
     }
   }
 }
@@ -134,4 +133,44 @@ h1 {
 .connections li {
   @extend %subway-small;
   display: inline-block;
+}
+
+.stop {
+  border: 3px solid white;
+  &.passive {
+    border: 3px solid rgba(white, .5);
+  }
+  padding-top: 0 !important;
+}
+
+.target {
+  h3:before {
+    content: '';
+    display: inline-block;
+    position: relative;
+    height: .75em;
+    width: .75em;
+    padding-right: .25em;
+    background: {
+      image: inline-image('star.svg');
+      size: .75em;
+      repeat: no-repeat;
+    }
+  }
+}
+
+.time-to {
+  display: inline-block;
+  @include rotate(-90deg);
+  margin-top: -3.5em;
+  font-size: .7em;
+  
+  #northbound & {
+    @include rotate(90deg);
+    margin-top: 1em;
+  }
+  
+  .passive & {
+    display: none;
+  }
 }

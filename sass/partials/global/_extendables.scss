@@ -31,19 +31,22 @@
 }
 
 %tracks {
-//  background-repeat: repeat-y;
-//  
-//  .svg & {
-//    background: {
-//      image: inline-image('rail.svg');
-//      size: 100% 20px;
-//    }
-//  }
-//  
-//  .no-svg &,
-//  .no-js {
-//    background: {
-//      image: image('rail.png');
-//    }
-//  }
+  background: {
+    repeat: repeat-y;
+//    attachment: fixed;
+  }
+  
+  .svg & {
+    background: {
+      image: inline-image('rail.svg');
+      size: 100% 1em;
+    }
+  }
+  
+  .no-svg &,
+  .no-js {
+    background: {
+      image: image('rail.png');
+    }
+  }
 }

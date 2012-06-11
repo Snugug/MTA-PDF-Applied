@@ -1,9 +1,12 @@
 <html class="no-js">
   <head>
     <title>seeTra.in</title>
+    
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="apple-touch-icon" href="images/icon256.png" />
     
     <link href="css/style.css" media="screen" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="js/modernizr.custom.02818.js"></script>
@@ -24,9 +27,19 @@
     </header>
     
     <div id="container" class="wrapper">
+      <div id="southbound">
+        <div class="subway-123" id="TRAINID-3S">3<span class="time-to">3min</span></div>
+        <div class="subway-123" id="TRAINID-2S">2<span class="time-to"></span></div>
+        <div class="subway-123" id="TRAINID-1S">1<span class="time-to"></span></div>
+      </div>
+      <div id="northbound">
+        <div class="subway-123" id="TRAINID-1N">1<span class="time-to"></span></div>
+        <div class="subway-123" id="TRAINID-2N">2<span class="time-to"></span></div>
+        <div class="subway-123" id="TRAINID-3N">3<span class="time-to"></span></div>
+      </div>
       <article id="station-list">
         <ul>
-          <li class="station-info">
+          <li id="nintysixth-st" class="station-info">
             <h3>96 St</h3>
             <footer class="connections">
               <ul>
@@ -36,7 +49,7 @@
               </ul>
             </footer>
           </li>
-          <li class="station-info">
+          <li id="eightysixth-st" class="station-info">
             <h3>86 St</h3>
             <footer class="connections">
               <ul>
@@ -44,7 +57,7 @@
               </ul>
             </footer>
           </li>
-          <li class="station-info">
+          <li id="seventyninth-st" class="station-info">
             <h3>79 St</h3>
             <footer class="connections">
               <ul>
@@ -52,7 +65,7 @@
               </ul>
             </footer>
           </li>
-          <li class="station-info">
+          <li id="seventysecond-st" class="station-info">
             <h3>72 St</h3>
             <footer class="connections">
               <ul>
@@ -62,7 +75,7 @@
               </ul>
             </footer>
           </li>
-          <li class="station-info">
+          <li id="sixtysixth-st" class="station-info">
             <h3>66 St</h3>
             <footer class="connections">
               <ul>
@@ -70,7 +83,7 @@
               </ul>
             </footer>
           </li>
-          <li class="station-info">
+          <li id="fiftyninth-st" class="station-info">
             <h3>59 St</h3>
             <footer class="connections">
               <ul>
@@ -82,7 +95,7 @@
               </ul>
             </footer>
           </li>
-          <li class="station-info">
+          <li id="fiftyth-st" class="station-info">
             <h3>50 St</h3>
             <footer class="connections">
               <ul>
@@ -90,7 +103,7 @@
               </ul>
             </footer>
           </li>
-          <li class="station-info">
+          <li id="time-sq" class="station-info target">
             <h3>Times Sq-42 St</h3>
             <footer class="connections">
               <ul>
@@ -105,7 +118,7 @@
               </ul>
             </footer>
           </li>
-          <li class="station-info">
+          <li id="thirtyfourth-st" class="station-info">
             <h3>34 St-Penn Station</h3>
             <footer class="connections">
               <ul>
@@ -116,7 +129,7 @@
               </ul>
             </footer>
           </li>
-          <li class="station-info">
+          <li id="twentyeigth-st" class="station-info">
             <h3>28 St</h3>
             <footer class="connections">
               <ul>
@@ -124,7 +137,7 @@
               </ul>
             </footer>
           </li>
-          <li class="station-info">
+          <li id="twentythird-st" class="station-info">
             <h3>23 St</h3>
             <footer class="connections">
               <ul>
@@ -132,7 +145,7 @@
               </ul>
             </footer>
           </li>
-          <li class="station-info">
+          <li id="eighteenth-st" class="station-info">
             <h3>18 St</h3>
             <footer class="connections">
               <ul>
@@ -140,7 +153,7 @@
               </ul>
             </footer>
           </li>
-          <li class="station-info">
+          <li id="fourteenth-st" class="station-info">
             <h3>14 St</h3>
             <footer class="connections">
               <ul>
@@ -150,7 +163,7 @@
               </ul>
             </footer>
           </li>
-          <li class="station-info">
+          <li id="christopher-st" class="station-info">
             <h3>Christopher St - Sheridan Sq</h3>
             <footer class="connections">
               <ul>
@@ -158,7 +171,7 @@
               </ul>
             </footer>
           </li>
-          <li class="station-info">
+          <li id="houston-st" class="station-info">
             <h3>Houston St</h3>
             <footer class="connections">
               <ul>
@@ -166,7 +179,7 @@
               </ul>
             </footer>
           </li>
-          <li class="station-info">
+          <li id="canal-st" class="station-info">
             <h3>Canal St</h3>
             <footer class="connections">
               <ul>
@@ -174,7 +187,7 @@
               </ul>
             </footer>
           </li>
-          <li class="station-info">
+          <li id="franklin-st" class="station-info">
             <h3>Franklin St</h3>
             <footer class="connections">
               <ul>
@@ -182,7 +195,7 @@
               </ul>
             </footer>
           </li>
-         <li class="station-info">
+         <li id="chambers-st" class="station-info">
             <h3>Chambers St</h3>
             <footer class="connections">
               <ul>
@@ -194,25 +207,10 @@
           </li>
         </ul>
       </article>
-      <div id="southbound">
-        <div class="subway-123" id="TRAINID-3S">3</div>
-        <div class="subway-123 passive" id="TRAINID-2S">2</div>
-        <div class="subway-123 passive" id="TRAINID-1S">1</div>
-      </div>
-      <div id="northbound">
-        <div class="subway-123 passive" id="TRAINID-1N">1</div>
-        <div class="subway-123" id="TRAINID-2N">2</div>
-        <div class="subway-123" id="TRAINID-3N">3</div>
-      </div>
     </div>
     <!-- Script Files -->
-    <!-- Live Reload -->
     <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
-    <!-- Zepto, min jQuery -->
-    <script type="text/javascript" src="js/zepto.min.js"></script>
-    <!-- Davis, PushState Awesomesauce -->
-    <script type="text/javascript" src="js/davis.min.js"></script>
-    <!-- Application JS -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script type="text/javascript" src="js/application.js"></script>
   </body>
 </html>
