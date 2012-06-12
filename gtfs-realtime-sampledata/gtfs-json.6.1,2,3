@@ -1,0 +1,1721 @@
+{
+  "feedtimestamp": "2012-05-30 15:37:58",
+  "trips": {
+    "1": {
+      "S": [
+        {
+          "route_id": "1",
+          "direction": "S",
+          "trip_id": "100281_1..S03R",
+          "stops": [
+            {
+              "arrival": 0,
+              "stop": "101",
+              "departure": 1338410569
+            },
+            {
+              "arrival": 1338410629,
+              "stop": "103",
+              "departure": 1338410629
+            },
+            {
+              "arrival": 1338410719,
+              "stop": "104",
+              "departure": 1338410719
+            },
+            {
+              "arrival": 1338410809,
+              "stop": "106",
+              "departure": 1338410809
+            },
+            {
+              "arrival": 1338410899,
+              "stop": "107",
+              "departure": 1338410899
+            },
+            {
+              "arrival": 1338410989,
+              "stop": "108",
+              "departure": 1338410989
+            },
+            {
+              "arrival": 1338411079,
+              "stop": "109",
+              "departure": 1338411079
+            },
+            {
+              "arrival": 1338411169,
+              "stop": "110",
+              "departure": 1338411169
+            },
+            {
+              "arrival": 1338411259,
+              "stop": "111",
+              "departure": 1338411259
+            },
+            {
+              "arrival": 1338411379,
+              "stop": "112",
+              "departure": 1338411379
+            },
+            {
+              "arrival": 1338411481,
+              "stop": "113",
+              "departure": 1338411481
+            },
+            {
+              "arrival": 1338411595,
+              "stop": "114",
+              "departure": 1338411595
+            },
+            {
+              "arrival": 1338411679,
+              "stop": "115",
+              "departure": 1338411739
+            },
+            {
+              "arrival": 1338411859,
+              "stop": "116",
+              "departure": 1338411859
+            },
+            {
+              "arrival": 1338411991,
+              "stop": "117",
+              "departure": 1338411991
+            },
+            {
+              "arrival": 1338412087,
+              "stop": "118",
+              "departure": 1338412087
+            },
+            {
+              "arrival": 1338412189,
+              "stop": "119",
+              "departure": 1338412189
+            },
+            {
+              "arrival": 1338412279,
+              "stop": "120",
+              "departure": 1338412279
+            },
+            {
+              "arrival": 1338412381,
+              "stop": "121",
+              "departure": 1338412381
+            },
+            {
+              "arrival": 1338412465,
+              "stop": "122",
+              "departure": 1338412465
+            },
+            {
+              "arrival": 1338412555,
+              "stop": "123",
+              "departure": 1338412555
+            },
+            {
+              "arrival": 1338412639,
+              "stop": "124",
+              "departure": 1338412639
+            },
+            {
+              "arrival": 1338412747,
+              "stop": "125",
+              "departure": 1338412747
+            },
+            {
+              "arrival": 1338412879,
+              "stop": "126",
+              "departure": 1338412879
+            },
+            {
+              "arrival": 1338412999,
+              "stop": "127",
+              "departure": 1338412999
+            },
+            {
+              "arrival": 1338413089,
+              "stop": "128",
+              "departure": 1338413089
+            },
+            {
+              "arrival": 1338413161,
+              "stop": "129",
+              "departure": 1338413161
+            },
+            {
+              "arrival": 1338413233,
+              "stop": "130",
+              "departure": 1338413233
+            },
+            {
+              "arrival": 1338413299,
+              "stop": "131",
+              "departure": 1338413299
+            },
+            {
+              "arrival": 1338413371,
+              "stop": "132",
+              "departure": 1338413371
+            },
+            {
+              "arrival": 1338413455,
+              "stop": "133",
+              "departure": 1338413455
+            },
+            {
+              "arrival": 1338413545,
+              "stop": "134",
+              "departure": 1338413545
+            },
+            {
+              "arrival": 1338413629,
+              "stop": "135",
+              "departure": 1338413629
+            },
+            {
+              "arrival": 1338413701,
+              "stop": "136",
+              "departure": 1338413701
+            },
+            {
+              "arrival": 1338413779,
+              "stop": "137",
+              "departure": 1338413899
+            },
+            {
+              "arrival": 1338414013,
+              "stop": "138",
+              "departure": 1338414013
+            },
+            {
+              "arrival": 1338414133,
+              "stop": "139",
+              "departure": 1338414133
+            },
+            {
+              "arrival": 1338414259,
+              "stop": "142",
+              "departure": 0
+            }
+          ]
+        },
+        {
+          "route_id": "1",
+          "direction": "S",
+          "trip_id": "098291_1..S12R",
+          "stops": [
+            {
+              "arrival": 0,
+              "stop": "115",
+              "departure": 1338409375
+            },
+            {
+              "arrival": 1338409495,
+              "stop": "116",
+              "departure": 1338409495
+            },
+            {
+              "arrival": 1338409627,
+              "stop": "117",
+              "departure": 1338409627
+            },
+            {
+              "arrival": 1338409723,
+              "stop": "118",
+              "departure": 1338409723
+            },
+            {
+              "arrival": 1338409825,
+              "stop": "119",
+              "departure": 1338409825
+            },
+            {
+              "arrival": 1338409915,
+              "stop": "120",
+              "departure": 1338409915
+            },
+            {
+              "arrival": 1338410017,
+              "stop": "121",
+              "departure": 1338410017
+            },
+            {
+              "arrival": 1338410101,
+              "stop": "122",
+              "departure": 1338410101
+            },
+            {
+              "arrival": 1338410191,
+              "stop": "123",
+              "departure": 1338410191
+            },
+            {
+              "arrival": 1338410275,
+              "stop": "124",
+              "departure": 1338410275
+            },
+            {
+              "arrival": 1338410383,
+              "stop": "125",
+              "departure": 1338410383
+            },
+            {
+              "arrival": 1338410515,
+              "stop": "126",
+              "departure": 1338410515
+            },
+            {
+              "arrival": 1338410635,
+              "stop": "127",
+              "departure": 1338410635
+            },
+            {
+              "arrival": 1338410725,
+              "stop": "128",
+              "departure": 1338410725
+            },
+            {
+              "arrival": 1338410797,
+              "stop": "129",
+              "departure": 1338410797
+            },
+            {
+              "arrival": 1338410869,
+              "stop": "130",
+              "departure": 1338410869
+            },
+            {
+              "arrival": 1338410935,
+              "stop": "131",
+              "departure": 1338410935
+            },
+            {
+              "arrival": 1338411007,
+              "stop": "132",
+              "departure": 1338411007
+            },
+            {
+              "arrival": 1338411091,
+              "stop": "133",
+              "departure": 1338411091
+            },
+            {
+              "arrival": 1338411181,
+              "stop": "134",
+              "departure": 1338411181
+            },
+            {
+              "arrival": 1338411265,
+              "stop": "135",
+              "departure": 1338411265
+            },
+            {
+              "arrival": 1338411337,
+              "stop": "136",
+              "departure": 1338411337
+            },
+            {
+              "arrival": 1338411415,
+              "stop": "137",
+              "departure": 1338411535
+            },
+            {
+              "arrival": 1338411649,
+              "stop": "138",
+              "departure": 1338411649
+            },
+            {
+              "arrival": 1338411769,
+              "stop": "139",
+              "departure": 1338411769
+            },
+            {
+              "arrival": 1338411895,
+              "stop": "142",
+              "departure": 0
+            }
+          ]
+        },
+        {
+          "route_id": "1",
+          "direction": "S",
+          "trip_id": "099891_1..S12R",
+          "stops": [
+            {
+              "arrival": 0,
+              "stop": "115",
+              "departure": 1338410335
+            },
+            {
+              "arrival": 1338410455,
+              "stop": "116",
+              "departure": 1338410455
+            },
+            {
+              "arrival": 1338410587,
+              "stop": "117",
+              "departure": 1338410587
+            },
+            {
+              "arrival": 1338410683,
+              "stop": "118",
+              "departure": 1338410683
+            },
+            {
+              "arrival": 1338410785,
+              "stop": "119",
+              "departure": 1338410785
+            },
+            {
+              "arrival": 1338410875,
+              "stop": "120",
+              "departure": 1338410875
+            },
+            {
+              "arrival": 1338410977,
+              "stop": "121",
+              "departure": 1338410977
+            },
+            {
+              "arrival": 1338411061,
+              "stop": "122",
+              "departure": 1338411061
+            },
+            {
+              "arrival": 1338411151,
+              "stop": "123",
+              "departure": 1338411151
+            },
+            {
+              "arrival": 1338411235,
+              "stop": "124",
+              "departure": 1338411235
+            },
+            {
+              "arrival": 1338411343,
+              "stop": "125",
+              "departure": 1338411343
+            },
+            {
+              "arrival": 1338411475,
+              "stop": "126",
+              "departure": 1338411475
+            },
+            {
+              "arrival": 1338411595,
+              "stop": "127",
+              "departure": 1338411595
+            },
+            {
+              "arrival": 1338411685,
+              "stop": "128",
+              "departure": 1338411685
+            },
+            {
+              "arrival": 1338411757,
+              "stop": "129",
+              "departure": 1338411757
+            },
+            {
+              "arrival": 1338411829,
+              "stop": "130",
+              "departure": 1338411829
+            },
+            {
+              "arrival": 1338411895,
+              "stop": "131",
+              "departure": 1338411895
+            },
+            {
+              "arrival": 1338411967,
+              "stop": "132",
+              "departure": 1338411967
+            },
+            {
+              "arrival": 1338412051,
+              "stop": "133",
+              "departure": 1338412051
+            },
+            {
+              "arrival": 1338412141,
+              "stop": "134",
+              "departure": 1338412141
+            },
+            {
+              "arrival": 1338412225,
+              "stop": "135",
+              "departure": 1338412225
+            },
+            {
+              "arrival": 1338412297,
+              "stop": "136",
+              "departure": 1338412297
+            },
+            {
+              "arrival": 1338412375,
+              "stop": "137",
+              "departure": 1338412495
+            },
+            {
+              "arrival": 1338412609,
+              "stop": "138",
+              "departure": 1338412609
+            },
+            {
+              "arrival": 1338412729,
+              "stop": "139",
+              "departure": 1338412729
+            },
+            {
+              "arrival": 1338412855,
+              "stop": "142",
+              "departure": 0
+            }
+          ]
+        }
+      ],
+      "N": [
+        {
+          "route_id": "1",
+          "direction": "N",
+          "trip_id": "100078_1..N03R",
+          "stops": [
+            {
+              "arrival": 0,
+              "stop": "142N",
+              "departure": 1338410447
+            },
+            {
+              "arrival": 1338410573,
+              "stop": "139N",
+              "departure": 1338410573
+            },
+            {
+              "arrival": 1338410693,
+              "stop": "138N",
+              "departure": 1338410693
+            },
+            {
+              "arrival": 1338410807,
+              "stop": "137N",
+              "departure": 1338410807
+            },
+            {
+              "arrival": 1338410879,
+              "stop": "136N",
+              "departure": 1338410879
+            },
+            {
+              "arrival": 1338410951,
+              "stop": "135N",
+              "departure": 1338410951
+            },
+            {
+              "arrival": 1338411035,
+              "stop": "134N",
+              "departure": 1338411035
+            },
+            {
+              "arrival": 1338411119,
+              "stop": "133N",
+              "departure": 1338411119
+            },
+            {
+              "arrival": 1338411197,
+              "stop": "132N",
+              "departure": 1338411197
+            },
+            {
+              "arrival": 1338411269,
+              "stop": "131N",
+              "departure": 1338411269
+            },
+            {
+              "arrival": 1338411335,
+              "stop": "130N",
+              "departure": 1338411335
+            },
+            {
+              "arrival": 1338411401,
+              "stop": "129N",
+              "departure": 1338411401
+            },
+            {
+              "arrival": 1338411473,
+              "stop": "128N",
+              "departure": 1338411473
+            },
+            {
+              "arrival": 1338411557,
+              "stop": "127N",
+              "departure": 1338411557
+            },
+            {
+              "arrival": 1338411659,
+              "stop": "126N",
+              "departure": 1338411659
+            },
+            {
+              "arrival": 1338411767,
+              "stop": "125N",
+              "departure": 1338411767
+            },
+            {
+              "arrival": 1338411857,
+              "stop": "124N",
+              "departure": 1338411857
+            },
+            {
+              "arrival": 1338411941,
+              "stop": "123N",
+              "departure": 1338411941
+            },
+            {
+              "arrival": 1338412031,
+              "stop": "122N",
+              "departure": 1338412031
+            },
+            {
+              "arrival": 1338412115,
+              "stop": "121N",
+              "departure": 1338412115
+            },
+            {
+              "arrival": 1338412217,
+              "stop": "120N",
+              "departure": 1338412217
+            },
+            {
+              "arrival": 1338412307,
+              "stop": "119N",
+              "departure": 1338412307
+            },
+            {
+              "arrival": 1338412385,
+              "stop": "118N",
+              "departure": 1338412385
+            },
+            {
+              "arrival": 1338412463,
+              "stop": "117N",
+              "departure": 1338412463
+            },
+            {
+              "arrival": 1338412571,
+              "stop": "116N",
+              "departure": 1338412571
+            },
+            {
+              "arrival": 1338412667,
+              "stop": "115N",
+              "departure": 1338412667
+            },
+            {
+              "arrival": 1338412745,
+              "stop": "114N",
+              "departure": 1338412745
+            },
+            {
+              "arrival": 1338412847,
+              "stop": "113N",
+              "departure": 1338412847
+            },
+            {
+              "arrival": 1338412937,
+              "stop": "112N",
+              "departure": 1338412937
+            },
+            {
+              "arrival": 1338413057,
+              "stop": "111N",
+              "departure": 1338413057
+            },
+            {
+              "arrival": 1338413147,
+              "stop": "110N",
+              "departure": 1338413147
+            },
+            {
+              "arrival": 1338413237,
+              "stop": "109N",
+              "departure": 1338413237
+            },
+            {
+              "arrival": 1338413339,
+              "stop": "108N",
+              "departure": 1338413339
+            },
+            {
+              "arrival": 1338413429,
+              "stop": "107N",
+              "departure": 1338413429
+            },
+            {
+              "arrival": 1338413531,
+              "stop": "106N",
+              "departure": 1338413531
+            },
+            {
+              "arrival": 1338413627,
+              "stop": "104N",
+              "departure": 1338413627
+            },
+            {
+              "arrival": 1338413717,
+              "stop": "103N",
+              "departure": 1338413717
+            },
+            {
+              "arrival": 1338413807,
+              "stop": "101N",
+              "departure": 0
+            }
+          ]
+        }
+      ]
+    },
+    "3": {
+      "S": [
+        {
+          "route_id": "3",
+          "direction": "S",
+          "trip_id": "099380_3..S03R",
+          "stops": [
+            {
+              "arrival": 0,
+              "stop": "302",
+              "departure": 1338410028
+            },
+            {
+              "arrival": 1338410148,
+              "stop": "224",
+              "departure": 1338410148
+            },
+            {
+              "arrival": 1338410274,
+              "stop": "225",
+              "departure": 1338410274
+            },
+            {
+              "arrival": 1338410394,
+              "stop": "226",
+              "departure": 1338410394
+            },
+            {
+              "arrival": 1338410490,
+              "stop": "227",
+              "departure": 1338410490
+            },
+            {
+              "arrival": 1338410718,
+              "stop": "120",
+              "departure": 1338410718
+            },
+            {
+              "arrival": 1338410898,
+              "stop": "123",
+              "departure": 1338410898
+            },
+            {
+              "arrival": 1338411168,
+              "stop": "127",
+              "departure": 1338411168
+            },
+            {
+              "arrival": 1338411276,
+              "stop": "128",
+              "departure": 1338411276
+            },
+            {
+              "arrival": 1338411450,
+              "stop": "132",
+              "departure": 1338411450
+            },
+            {
+              "arrival": 1338411708,
+              "stop": "137",
+              "departure": 1338411708
+            },
+            {
+              "arrival": 1338411792,
+              "stop": "228",
+              "departure": 1338411792
+            },
+            {
+              "arrival": 1338411894,
+              "stop": "229",
+              "departure": 1338411894
+            },
+            {
+              "arrival": 1338411978,
+              "stop": "230",
+              "departure": 1338411978
+            },
+            {
+              "arrival": 1338412182,
+              "stop": "231",
+              "departure": 1338412182
+            },
+            {
+              "arrival": 1338412290,
+              "stop": "232",
+              "departure": 1338412290
+            },
+            {
+              "arrival": 1338412386,
+              "stop": "233",
+              "departure": 1338412386
+            },
+            {
+              "arrival": 1338412488,
+              "stop": "234",
+              "departure": 1338412488
+            },
+            {
+              "arrival": 1338412578,
+              "stop": "235",
+              "departure": 1338412578
+            },
+            {
+              "arrival": 1338412662,
+              "stop": "236",
+              "departure": 1338412662
+            },
+            {
+              "arrival": 1338412770,
+              "stop": "237",
+              "departure": 1338412770
+            },
+            {
+              "arrival": 1338412872,
+              "stop": "238",
+              "departure": 1338412872
+            },
+            {
+              "arrival": 1338412968,
+              "stop": "239",
+              "departure": 1338412998
+            },
+            {
+              "arrival": 1338413070,
+              "stop": "248",
+              "departure": 1338413070
+            },
+            {
+              "arrival": 1338413178,
+              "stop": "249",
+              "departure": 1338413178
+            },
+            {
+              "arrival": 1338413298,
+              "stop": "250",
+              "departure": 1338413298
+            },
+            {
+              "arrival": 1338413424,
+              "stop": "251",
+              "departure": 1338413424
+            },
+            {
+              "arrival": 1338413520,
+              "stop": "252",
+              "departure": 1338413520
+            },
+            {
+              "arrival": 1338413616,
+              "stop": "253",
+              "departure": 1338413616
+            },
+            {
+              "arrival": 1338413700,
+              "stop": "254",
+              "departure": 1338413700
+            },
+            {
+              "arrival": 1338413790,
+              "stop": "255",
+              "departure": 1338413790
+            },
+            {
+              "arrival": 1338413874,
+              "stop": "256",
+              "departure": 1338413874
+            },
+            {
+              "arrival": 1338413958,
+              "stop": "257",
+              "departure": 0
+            }
+          ]
+        },
+        {
+          "route_id": "3",
+          "direction": "S",
+          "trip_id": "100078_3..S01R",
+          "stops": [
+            {
+              "arrival": 0,
+              "stop": "301",
+              "departure": 1338410447
+            },
+            {
+              "arrival": 1338410537,
+              "stop": "302",
+              "departure": 1338410537
+            },
+            {
+              "arrival": 1338410657,
+              "stop": "224",
+              "departure": 1338410657
+            },
+            {
+              "arrival": 1338410789,
+              "stop": "225",
+              "departure": 1338410789
+            },
+            {
+              "arrival": 1338410921,
+              "stop": "226",
+              "departure": 1338410921
+            },
+            {
+              "arrival": 1338411023,
+              "stop": "227",
+              "departure": 1338411023
+            },
+            {
+              "arrival": 1338411257,
+              "stop": "120",
+              "departure": 1338411257
+            },
+            {
+              "arrival": 1338411437,
+              "stop": "123",
+              "departure": 1338411437
+            },
+            {
+              "arrival": 1338411737,
+              "stop": "127",
+              "departure": 1338411737
+            },
+            {
+              "arrival": 1338411845,
+              "stop": "128",
+              "departure": 1338411845
+            },
+            {
+              "arrival": 1338412019,
+              "stop": "132",
+              "departure": 1338412019
+            },
+            {
+              "arrival": 1338412277,
+              "stop": "137",
+              "departure": 1338412277
+            },
+            {
+              "arrival": 1338412373,
+              "stop": "228",
+              "departure": 1338412373
+            },
+            {
+              "arrival": 1338412481,
+              "stop": "229",
+              "departure": 1338412481
+            },
+            {
+              "arrival": 1338412577,
+              "stop": "230",
+              "departure": 1338412577
+            },
+            {
+              "arrival": 1338412781,
+              "stop": "231",
+              "departure": 1338412781
+            },
+            {
+              "arrival": 1338412889,
+              "stop": "232",
+              "departure": 1338412889
+            },
+            {
+              "arrival": 1338412985,
+              "stop": "233",
+              "departure": 1338412985
+            },
+            {
+              "arrival": 1338413087,
+              "stop": "234",
+              "departure": 1338413087
+            },
+            {
+              "arrival": 1338413177,
+              "stop": "235",
+              "departure": 1338413177
+            },
+            {
+              "arrival": 1338413261,
+              "stop": "236",
+              "departure": 1338413261
+            },
+            {
+              "arrival": 1338413369,
+              "stop": "237",
+              "departure": 1338413369
+            },
+            {
+              "arrival": 1338413471,
+              "stop": "238",
+              "departure": 1338413471
+            },
+            {
+              "arrival": 1338413567,
+              "stop": "239",
+              "departure": 1338413597
+            },
+            {
+              "arrival": 1338413669,
+              "stop": "248",
+              "departure": 1338413669
+            },
+            {
+              "arrival": 1338413777,
+              "stop": "249",
+              "departure": 1338413777
+            },
+            {
+              "arrival": 1338413897,
+              "stop": "250",
+              "departure": 1338413897
+            },
+            {
+              "arrival": 1338414023,
+              "stop": "251",
+              "departure": 1338414023
+            },
+            {
+              "arrival": 1338414119,
+              "stop": "252",
+              "departure": 1338414119
+            },
+            {
+              "arrival": 1338414215,
+              "stop": "253",
+              "departure": 1338414215
+            },
+            {
+              "arrival": 1338414299,
+              "stop": "254",
+              "departure": 1338414299
+            },
+            {
+              "arrival": 1338414389,
+              "stop": "255",
+              "departure": 1338414389
+            },
+            {
+              "arrival": 1338414473,
+              "stop": "256",
+              "departure": 1338414473
+            },
+            {
+              "arrival": 1338414557,
+              "stop": "257",
+              "departure": 0
+            }
+          ]
+        }
+      ],
+      "N": [
+        {
+          "route_id": "3",
+          "direction": "N",
+          "trip_id": "100383_3..N01R",
+          "stops": [
+            {
+              "arrival": 0,
+              "stop": "257N",
+              "departure": 1338410630
+            },
+            {
+              "arrival": 1338410720,
+              "stop": "256N",
+              "departure": 1338410720
+            },
+            {
+              "arrival": 1338410804,
+              "stop": "255N",
+              "departure": 1338410804
+            },
+            {
+              "arrival": 1338410900,
+              "stop": "254N",
+              "departure": 1338410900
+            },
+            {
+              "arrival": 1338410990,
+              "stop": "253N",
+              "departure": 1338410990
+            },
+            {
+              "arrival": 1338411086,
+              "stop": "252N",
+              "departure": 1338411086
+            },
+            {
+              "arrival": 1338411188,
+              "stop": "251N",
+              "departure": 1338411188
+            },
+            {
+              "arrival": 1338411320,
+              "stop": "250N",
+              "departure": 1338411350
+            },
+            {
+              "arrival": 1338411458,
+              "stop": "249N",
+              "departure": 1338411458
+            },
+            {
+              "arrival": 1338411560,
+              "stop": "248N",
+              "departure": 1338411560
+            },
+            {
+              "arrival": 1338411680,
+              "stop": "239N",
+              "departure": 1338411680
+            },
+            {
+              "arrival": 1338411788,
+              "stop": "238N",
+              "departure": 1338411788
+            },
+            {
+              "arrival": 1338411896,
+              "stop": "237N",
+              "departure": 1338411896
+            },
+            {
+              "arrival": 1338412004,
+              "stop": "236N",
+              "departure": 1338412004
+            },
+            {
+              "arrival": 1338412100,
+              "stop": "235N",
+              "departure": 1338412100
+            },
+            {
+              "arrival": 1338412190,
+              "stop": "234N",
+              "departure": 1338412190
+            },
+            {
+              "arrival": 1338412286,
+              "stop": "233N",
+              "departure": 1338412286
+            },
+            {
+              "arrival": 1338412388,
+              "stop": "232N",
+              "departure": 1338412388
+            },
+            {
+              "arrival": 1338412490,
+              "stop": "231N",
+              "departure": 1338412490
+            },
+            {
+              "arrival": 1338412700,
+              "stop": "230N",
+              "departure": 1338412700
+            },
+            {
+              "arrival": 1338412784,
+              "stop": "229N",
+              "departure": 1338412784
+            },
+            {
+              "arrival": 1338412886,
+              "stop": "228N",
+              "departure": 1338412886
+            },
+            {
+              "arrival": 1338412970,
+              "stop": "137N",
+              "departure": 1338412970
+            },
+            {
+              "arrival": 1338413216,
+              "stop": "132N",
+              "departure": 1338413216
+            },
+            {
+              "arrival": 1338413384,
+              "stop": "128N",
+              "departure": 1338413384
+            },
+            {
+              "arrival": 1338413480,
+              "stop": "127N",
+              "departure": 1338413480
+            },
+            {
+              "arrival": 1338413720,
+              "stop": "123N",
+              "departure": 1338413720
+            },
+            {
+              "arrival": 1338413900,
+              "stop": "120N",
+              "departure": 1338413900
+            },
+            {
+              "arrival": 1338414110,
+              "stop": "227N",
+              "departure": 1338414110
+            },
+            {
+              "arrival": 1338414194,
+              "stop": "226N",
+              "departure": 1338414194
+            },
+            {
+              "arrival": 1338414296,
+              "stop": "225N",
+              "departure": 1338414296
+            },
+            {
+              "arrival": 1338414410,
+              "stop": "224N",
+              "departure": 1338414410
+            },
+            {
+              "arrival": 1338414530,
+              "stop": "302N",
+              "departure": 1338414530
+            },
+            {
+              "arrival": 1338414650,
+              "stop": "301N",
+              "departure": 0
+            }
+          ]
+        }
+      ]
+    },
+    "2": {
+      "S": [
+        {
+          "route_id": "2",
+          "direction": "S",
+          "trip_id": "100181_2..S01R",
+          "stops": [
+            {
+              "arrival": 0,
+              "stop": "201",
+              "departure": 1338410509
+            },
+            {
+              "arrival": 1338410599,
+              "stop": "204",
+              "departure": 1338410599
+            },
+            {
+              "arrival": 1338410689,
+              "stop": "205",
+              "departure": 1338410689
+            },
+            {
+              "arrival": 1338410779,
+              "stop": "206",
+              "departure": 1338410779
+            },
+            {
+              "arrival": 1338410857,
+              "stop": "207",
+              "departure": 1338410857
+            },
+            {
+              "arrival": 1338410953,
+              "stop": "208",
+              "departure": 1338410953
+            },
+            {
+              "arrival": 1338411049,
+              "stop": "209",
+              "departure": 1338411049
+            },
+            {
+              "arrival": 1338411139,
+              "stop": "210",
+              "departure": 1338411139
+            },
+            {
+              "arrival": 1338411247,
+              "stop": "211",
+              "departure": 1338411247
+            },
+            {
+              "arrival": 1338411361,
+              "stop": "212",
+              "departure": 1338411361
+            },
+            {
+              "arrival": 1338411469,
+              "stop": "213",
+              "departure": 1338411469
+            },
+            {
+              "arrival": 1338411577,
+              "stop": "214",
+              "departure": 1338411577
+            },
+            {
+              "arrival": 1338411697,
+              "stop": "215",
+              "departure": 1338411697
+            },
+            {
+              "arrival": 1338411823,
+              "stop": "216",
+              "departure": 1338411823
+            },
+            {
+              "arrival": 1338411931,
+              "stop": "217",
+              "departure": 1338411931
+            },
+            {
+              "arrival": 1338412033,
+              "stop": "218",
+              "departure": 1338412033
+            },
+            {
+              "arrival": 1338412129,
+              "stop": "219",
+              "departure": 1338412129
+            },
+            {
+              "arrival": 1338412237,
+              "stop": "220",
+              "departure": 1338412237
+            },
+            {
+              "arrival": 1338412363,
+              "stop": "221",
+              "departure": 1338412363
+            },
+            {
+              "arrival": 1338412489,
+              "stop": "222",
+              "departure": 1338412489
+            },
+            {
+              "arrival": 1338412699,
+              "stop": "224",
+              "departure": 1338412699
+            },
+            {
+              "arrival": 1338412825,
+              "stop": "225",
+              "departure": 1338412825
+            },
+            {
+              "arrival": 1338412945,
+              "stop": "226",
+              "departure": 1338412945
+            },
+            {
+              "arrival": 1338413041,
+              "stop": "227",
+              "departure": 1338413041
+            },
+            {
+              "arrival": 1338413269,
+              "stop": "120",
+              "departure": 1338413269
+            },
+            {
+              "arrival": 1338413449,
+              "stop": "123",
+              "departure": 1338413449
+            },
+            {
+              "arrival": 1338413779,
+              "stop": "127",
+              "departure": 1338413779
+            },
+            {
+              "arrival": 1338413893,
+              "stop": "128",
+              "departure": 1338413893
+            },
+            {
+              "arrival": 1338414085,
+              "stop": "132",
+              "departure": 1338414085
+            },
+            {
+              "arrival": 1338414349,
+              "stop": "137",
+              "departure": 1338414349
+            },
+            {
+              "arrival": 1338414445,
+              "stop": "228",
+              "departure": 1338414445
+            },
+            {
+              "arrival": 1338414553,
+              "stop": "229",
+              "departure": 1338414553
+            },
+            {
+              "arrival": 1338414649,
+              "stop": "230",
+              "departure": 1338414649
+            },
+            {
+              "arrival": 1338414853,
+              "stop": "231",
+              "departure": 1338414853
+            },
+            {
+              "arrival": 1338414961,
+              "stop": "232",
+              "departure": 1338414961
+            },
+            {
+              "arrival": 1338415057,
+              "stop": "233",
+              "departure": 1338415057
+            },
+            {
+              "arrival": 1338415159,
+              "stop": "234",
+              "departure": 1338415159
+            },
+            {
+              "arrival": 1338415249,
+              "stop": "235",
+              "departure": 1338415249
+            },
+            {
+              "arrival": 1338415345,
+              "stop": "236",
+              "departure": 1338415345
+            },
+            {
+              "arrival": 1338415459,
+              "stop": "237",
+              "departure": 1338415459
+            },
+            {
+              "arrival": 1338415561,
+              "stop": "238",
+              "departure": 1338415561
+            },
+            {
+              "arrival": 1338415669,
+              "stop": "239",
+              "departure": 1338415729
+            },
+            {
+              "arrival": 1338415909,
+              "stop": "241",
+              "departure": 1338415909
+            },
+            {
+              "arrival": 1338415987,
+              "stop": "242",
+              "departure": 1338415987
+            },
+            {
+              "arrival": 1338416071,
+              "stop": "243",
+              "departure": 1338416071
+            },
+            {
+              "arrival": 1338416149,
+              "stop": "244",
+              "departure": 1338416269
+            },
+            {
+              "arrival": 1338416365,
+              "stop": "245",
+              "departure": 1338416365
+            },
+            {
+              "arrival": 1338416455,
+              "stop": "246",
+              "departure": 1338416455
+            },
+            {
+              "arrival": 1338416569,
+              "stop": "247",
+              "departure": 0
+            }
+          ]
+        }
+      ],
+      "N": [
+        {
+          "route_id": "2",
+          "direction": "N",
+          "trip_id": "099380_2..N01R",
+          "stops": [
+            {
+              "arrival": 0,
+              "stop": "247N",
+              "departure": 1338410028
+            },
+            {
+              "arrival": 1338410130,
+              "stop": "246N",
+              "departure": 1338410130
+            },
+            {
+              "arrival": 1338410214,
+              "stop": "245N",
+              "departure": 1338410214
+            },
+            {
+              "arrival": 1338410298,
+              "stop": "244N",
+              "departure": 1338410298
+            },
+            {
+              "arrival": 1338410400,
+              "stop": "243N",
+              "departure": 1338410400
+            },
+            {
+              "arrival": 1338410502,
+              "stop": "242N",
+              "departure": 1338410502
+            },
+            {
+              "arrival": 1338410598,
+              "stop": "241N",
+              "departure": 1338410598
+            },
+            {
+              "arrival": 1338410778,
+              "stop": "239N",
+              "departure": 1338410778
+            },
+            {
+              "arrival": 1338410886,
+              "stop": "238N",
+              "departure": 1338410886
+            },
+            {
+              "arrival": 1338410994,
+              "stop": "237N",
+              "departure": 1338410994
+            },
+            {
+              "arrival": 1338411102,
+              "stop": "236N",
+              "departure": 1338411102
+            },
+            {
+              "arrival": 1338411198,
+              "stop": "235N",
+              "departure": 1338411198
+            },
+            {
+              "arrival": 1338411288,
+              "stop": "234N",
+              "departure": 1338411288
+            },
+            {
+              "arrival": 1338411384,
+              "stop": "233N",
+              "departure": 1338411384
+            },
+            {
+              "arrival": 1338411486,
+              "stop": "232N",
+              "departure": 1338411486
+            },
+            {
+              "arrival": 1338411588,
+              "stop": "231N",
+              "departure": 1338411588
+            },
+            {
+              "arrival": 1338411798,
+              "stop": "230N",
+              "departure": 1338411798
+            },
+            {
+              "arrival": 1338411882,
+              "stop": "229N",
+              "departure": 1338411882
+            },
+            {
+              "arrival": 1338411984,
+              "stop": "228N",
+              "departure": 1338411984
+            },
+            {
+              "arrival": 1338412068,
+              "stop": "137N",
+              "departure": 1338412068
+            },
+            {
+              "arrival": 1338412314,
+              "stop": "132N",
+              "departure": 1338412314
+            },
+            {
+              "arrival": 1338412482,
+              "stop": "128N",
+              "departure": 1338412482
+            },
+            {
+              "arrival": 1338412578,
+              "stop": "127N",
+              "departure": 1338412578
+            },
+            {
+              "arrival": 1338412818,
+              "stop": "123N",
+              "departure": 1338412818
+            },
+            {
+              "arrival": 1338412998,
+              "stop": "120N",
+              "departure": 1338412998
+            },
+            {
+              "arrival": 1338413208,
+              "stop": "227N",
+              "departure": 1338413208
+            },
+            {
+              "arrival": 1338413292,
+              "stop": "226N",
+              "departure": 1338413292
+            },
+            {
+              "arrival": 1338413394,
+              "stop": "225N",
+              "departure": 1338413394
+            },
+            {
+              "arrival": 1338413508,
+              "stop": "224N",
+              "departure": 1338413508
+            },
+            {
+              "arrival": 1338413748,
+              "stop": "222N",
+              "departure": 1338413748
+            },
+            {
+              "arrival": 1338413856,
+              "stop": "221N",
+              "departure": 1338413856
+            },
+            {
+              "arrival": 1338413964,
+              "stop": "220N",
+              "departure": 1338413964
+            },
+            {
+              "arrival": 1338414060,
+              "stop": "219N",
+              "departure": 1338414060
+            },
+            {
+              "arrival": 1338414138,
+              "stop": "218N",
+              "departure": 1338414138
+            },
+            {
+              "arrival": 1338414222,
+              "stop": "217N",
+              "departure": 1338414222
+            },
+            {
+              "arrival": 1338414312,
+              "stop": "216N",
+              "departure": 1338414312
+            },
+            {
+              "arrival": 1338414426,
+              "stop": "215N",
+              "departure": 1338414426
+            },
+            {
+              "arrival": 1338414522,
+              "stop": "214N",
+              "departure": 1338414522
+            },
+            {
+              "arrival": 1338414618,
+              "stop": "213N",
+              "departure": 1338414618
+            },
+            {
+              "arrival": 1338414726,
+              "stop": "212N",
+              "departure": 1338414726
+            },
+            {
+              "arrival": 1338414834,
+              "stop": "211N",
+              "departure": 1338414834
+            },
+            {
+              "arrival": 1338414936,
+              "stop": "210N",
+              "departure": 1338414936
+            },
+            {
+              "arrival": 1338415026,
+              "stop": "209N",
+              "departure": 1338415026
+            },
+            {
+              "arrival": 1338415116,
+              "stop": "208N",
+              "departure": 1338415116
+            },
+            {
+              "arrival": 1338415212,
+              "stop": "207N",
+              "departure": 1338415212
+            },
+            {
+              "arrival": 1338415284,
+              "stop": "206N",
+              "departure": 1338415284
+            },
+            {
+              "arrival": 1338415374,
+              "stop": "205N",
+              "departure": 1338415374
+            },
+            {
+              "arrival": 1338415458,
+              "stop": "204N",
+              "departure": 1338415458
+            },
+            {
+              "arrival": 1338415578,
+              "stop": "201N",
+              "departure": 0
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
