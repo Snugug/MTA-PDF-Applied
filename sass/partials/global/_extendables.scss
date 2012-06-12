@@ -1,6 +1,6 @@
 %subway-line {
   color: white;
-  @include border-radius(50%);
+//  @include border-radius(50%);
 }
 
 %subway-small {
@@ -10,6 +10,7 @@
   padding-top: .15em;
   font-weight: bold;
   text-align: center;
+  @include border-radius(.625em);
 }
 
 %subway-medium {
@@ -19,6 +20,7 @@
   padding-top: .15em;
   font-weight: bold;
   text-align: center;
+  @include border-radius(.625em);
 }
 
 %subway-large {
@@ -28,6 +30,7 @@
   font-weight: bold;
   padding-top: .23em;
   text-align: center;
+  @include border-radius(.75em) ;
 }
 
 %tracks {

@@ -15,6 +15,18 @@
     @if nth($subway, 1) == 'nqr' {
       color: black;
     }
+    
+    .time-to {
+      background-color: nth($subway, 2);
+      
+      @if nth($subway, 1) == 'nqr' {
+        color: black;
+        border: 1px solid black;
+      }
+      @else {
+        border: 1px solid white;
+      }
+    }
   }
 }
 
@@ -59,6 +71,7 @@ h1 {
     width: 1.75em;
     font-size: 1em;
     padding-top: .29em;
+    @include border-radius(.875em);
     
 //    margin-top: -.23em;
     
@@ -75,6 +88,9 @@ h1 {
 #southbound,
 #northbound {
   @include span-columns(2);
+  @include breakpoint($smaller-tracks) {
+    @include span-columns(1);
+  }
   text-align: center;
   height: 100%;
   @extend %tracks;
@@ -85,16 +101,17 @@ h1 {
     @extend %subway-medium;
     position: absolute;
     z-index: 100;
-    margin-left: .35em;
+    margin-left: -.15em;
+    
   }
 }
-//
-//#northbound {
-//  @include push(2);
-//}
 
 #station-list {
   @include span-columns(8 omega);
+  
+  @include breakpoint($smaller-tracks) {
+    @include span-columns(10 omega);
+  }
   
   h3 {
     font-size: 1.25em;
@@ -115,8 +132,12 @@ h1 {
   &:before {
     content: '';
     height: 3px;
-    @include span-columns(2);
-    width: columns(6);
+    @include span-columns(6);
+    
+    @include breakpoint($smaller-tracks) {
+      @include span-columns(2);
+    }
+//    width: columns(6);
     
     position: relative;
     background: rgba($subway-nqr, .75);
@@ -126,6 +147,10 @@ h1 {
       top: 1.25em;
       right: 0;
       left: -(columns(7)) - .3 * gutter();
+    }
+    
+    @include breakpoint($smaller-tracks) {
+      margin-left: -(columns(2) + 3 * gutter());
     }
   }
 }
@@ -151,23 +176,43 @@ h1 {
     height: .75em;
     width: .75em;
     padding-right: .25em;
-    background: {
-      image: inline-image('star.svg');
-      size: .75em;
-      repeat: no-repeat;
+    
+    .svg & {
+      background: {
+        image: inline-image('star.svg');
+        size: .75em;
+        repeat: no-repeat;
+      }
     }
+    .no-svg &,
+    .no-js & {
+      background: {
+        image: image-url('star.png');
+        size: .75em;
+        repeat: no-repeat;
+      }
+    }
+    
   }
 }
 
 .time-to {
-  display: inline-block;
+//  display: inline-block;
+  position: absolute;
   @include rotate(-90deg);
-  margin-top: -3.5em;
+  margin-top: -4em;
+  margin-left: -.55em;
   font-size: .7em;
+  padding: .10em .3em;
+  @include border-radius(.25em);
   
   #northbound & {
     @include rotate(90deg);
     margin-top: 1em;
+  }
+  
+  .stop & {
+    margin-left: -.8em;
   }
   
   .passive & {
